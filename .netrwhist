@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/astra-jason-kuan/Downloads/2002_flat_1001_4000/2002_flat_1001_4000'
+let g:netrw_dirhist_1='/Users/astra-jason-kuan/.aws'
