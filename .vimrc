@@ -17,6 +17,10 @@ Plug 'vim-scripts/indentpython.vim'
 Plug 'joshdick/onedark.vim'
 Plug 'davidhalter/jedi-vim'
 Plug 'tpope/vim-surround'
+Plug 'nvie/vim-flake8'
+Plug 'ambv/black'
+Plug 'fisadev/vim-isort'
+Plug 'python-rope/ropevim'
 call plug#end()
 
 " Style
@@ -32,6 +36,7 @@ set hlsearch
 set ignorecase
 set incsearch
 set smartcase
+noremap <CR> :nohlsearch<CR>
 
 " Gerenal
 set showcmd
@@ -40,7 +45,7 @@ set linebreak
 set noshowmode
 
 " tab space
-set expandtab    
+set expandtab
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
@@ -49,5 +54,3 @@ set showtabline=2
 filetype on
 filetype indent on
 filetype plugin on
-
-
