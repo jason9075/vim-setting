@@ -15,6 +15,8 @@ Plug 'dense-analysis/ale'
 Plug 'majutsushi/tagbar'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'joshdick/onedark.vim'
+Plug 'davidhalter/jedi-vim'
+Plug 'tpope/vim-surround'
 call plug#end()
 
 " Style
